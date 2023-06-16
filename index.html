@@ -6,43 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- Header -->
 
     <header>
-        <a href="">Britlex</a>
+        <a class="link logo" href="">Brit<span class="logo-part">lex</span></a>
         <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="list">
+                <li><a class="link nav-link current" href="">Home</a></li>
+                <li><a class="link nav-link" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="link nav-link" href="">Skills</a></li>
+                <li><a class="link nav-link" href="">About Us</a></li>
+                <li><a class="link nav-link" href="">Pricing</a></li>
+                <li><a class="link nav-link" href="">Contacts</a></li>
             </ul>
         </nav>
-        <button type="button">Let’s Talk</button>
+        <button class="header-btn" type="button">Let’s Talk</button>
     </header>
 
     <main>
         <!-- hero -->
         <section>
-            <h1>Learn
+            <h1 class="hero-title ">Learn
                 Any Foreign
                 Language</h1>
-            <p>With our teachers who write a program for
+            <p class="hero-desc">With our teachers who write a program for
                 each student, you will be able to make your
                 first sketch after the first lesson.</p>
-            <button type="button">Get started</button>
+            <button class="hero-btn" type="button">Get started</button>
             <img src="./img/learning-languages.jpeg" alt=" girl listen audio" width="654" height="510">
 
         </section>
 
         <!-- skills -->
         <section>
-            <h2>Skills</h2>
-            <ul>
+            <h2 class="section-title ">Skills</h2>
+            <ul class="list">
                 <li>
                     <img src="./img/shared-goals-bro.jpeg" alt="speaking" width="390" height="390">
                     <h3>Speaking</h3>
@@ -93,7 +98,7 @@
         <!-- about -->
 
         <section>
-            <h2>About Us</h2>
+            <h2 class="section-title ">About Us</h2>
             <p>The model offers a framework for discussing problems related to the user's experience, as well as
                 possible ways and
                 means of solving them. Application development begins at the top level (strategy), where the future
@@ -121,7 +126,7 @@
         <!-- Pricing -->
 
         <section>
-            <h2>Pricing</h2>
+            <h2 class="section-title ">Pricing</h2>
             <ul>
                 <li>
                     <img src="./img/online.jpeg" alt="online lessons" width="426" height="320">
@@ -155,7 +160,7 @@
 
         <section>
             <img src="./img/contact.jpeg" alt="boy" width="425" height="430">
-            <h2>Contact Us</h2>
+            <h2 class="section-title ">Contact Us</h2>
             <p>Discover your current English level by taking our free online English test. Sign up to our newsletter for
                 learning tips
                 and free resources</p>
@@ -165,17 +170,18 @@
             </form>
         </section>
 
-        <!-- footer -->
-        <footer>
-            <a href="">Brit<span>lex</span></a>
-            <ul>
-                <li><a href="">Terms and Conditions</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Cookie Policy</a></li>
-            </ul>
-        </footer>
+
 
     </main>
+    <!-- footer -->
+    <footer>
+        <a href="">Brit<span>lex</span></a>
+        <ul>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Cookie Policy</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>

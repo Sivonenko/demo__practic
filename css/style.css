@@ -1,0 +1,140 @@
+:root{
+    --primary-text-color:#8F95A5;
+    --accent-text-color:rgb(77, 71, 255);
+    --accent-bg-color:tomato;
+
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+color:var(--primary-text-color);
+font-size: 20px;
+    
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-title {
+    font-weight: 600;
+font-size: 48px;
+line-height: calc(72/48);
+color: #000000;
+
+}
+/* header */
+.logo {
+font-size: 36px;
+line-height: calc(54/36);
+color: #000000;
+}
+.logo-part {
+    color: #939393;
+}
+.nav-link.current{
+    color: var(--accent-text-color);
+}
+.nav-link {
+font-weight: 500;
+line-height: calc(30/20);
+color: #263238;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-text-color);
+}
+
+.header-btn {
+font-family: inherit;
+font-size: 20px;
+line-height: calc(30/20);
+letter-spacing: 0.03em;
+color: #000000;
+cursor: pointer;
+border: 2px solid #263238;
+border-radius: 10px;
+background-color: transparent;
+padding: 20px ;
+
+}
+.header-btn:hover,
+.header-btn:focus {
+    color: #fff;
+    background-color: var(--accent-bg-color);
+    border: transparent;
+}
+
+/* hero */
+
+.hero-title {
+    font-weight: 600;
+font-size: 64px;
+line-height: calc(80/64);
+color: #000000;
+}
+.hero-desc {
+    font-size: 24px;
+line-height: calc(36/24);
+}
+.hero-btn {
+font-family: inherit;
+font-size: 36px;
+line-height: calc(54/36);
+cursor: pointer;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: #263238;
+border-radius: 10px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #263238;
+    background-color: #fff;
+}
+
+/* card */
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card-item {
+    width: 370px;
+    height: 404px;
+    background-color: #8F95A5;
+    outline: 1px solid black;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header-container {
+    display: flex;
+     align-items: center;
+}
+.nav-list {
+    display: flex;
+       
+}
