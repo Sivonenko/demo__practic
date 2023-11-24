@@ -1,0 +1,172 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #8f95a5;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,p {
+margin: 0;
+}
+.section-title {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+/* header */
+.logo {
+  color: #000;
+  font-size: 36px;
+  line-height: normal;
+}
+.logo-part {
+  color: #939393;
+}
+.nav-link {
+  color: #263238;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: tomato;
+  font-size: 22px;
+}
+.header-btn {
+  color: #000;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header-btn:hover,
+.header-btn:focus {
+  background-color: tomato;
+  color: #fff;
+  border-color: transparent;
+}
+/* hero */
+.hero-title {
+  color: #000;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.hero-text {
+  font-size: 24px;
+  line-height: normal;
+}
+.hero-btn {
+  color: #fff;
+  font-family: inherit;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  border-radius: 10px;
+  background: #263238;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: tomato;
+  color: #000;
+  border-color: transparent;
+}
+/* Skills */
+.skills-title {
+  text-align: center;
+}
+.skills-item {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.skills-subtitle {
+  color: #263238;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+}
+.skills-text {
+  font-size: 16px;
+}
+.skills-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background: #263238;
+}
+/* about */
+.about-desk {
+  color: #2a3246;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+/* Pricing */
+.pricing-subtitle {
+  color: #263238;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+.pricing-desc {
+  color: #263238;
+  font-size: 24px;
+  line-height: normal;
+}
+.pricing-text {
+  color: #546269;
+  font-size: 18px;
+}
+/* Contact Us */
+.contact-input {
+  color: #8f95a5;
+  font-size: 16px;
+
+  line-height: 1.9;
+}
+.form-btn {
+  color: #fff;
+
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #263238;
+}
+/* footer */
+.footer-link {
+  color: #8f95a5;
+
+  font-size: 24px;
+
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+/* card */
+.card-list {
+display: flex;
+flex-wrap: wrap;
+gap: 48px 24px;
+}
+.card-item {
+width: 360px;
+height: 420px;
+background-color: teal;
+outline: 1px solid black;
+}
