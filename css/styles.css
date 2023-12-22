@@ -1,0 +1,190 @@
+:root {
+    --primary-text-color: #8f95a5;
+    --primary-bg-color: #fff;
+    --primary-font-size: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.section-title {
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+/* header */
+.logo {
+    color: #000;
+    font-size: 36px;
+    line-height: normal;
+}
+
+.logo-part {
+    color: #939393;
+}
+
+.nav-link {
+    color: #263238;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: tomato;
+}
+
+.current {
+    color: tomato;
+}
+
+.heder-btn {
+    color: #000;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.heder-btn:hover,
+.heder-btn:focus {
+    color: #fff;
+    background-color: tomato;
+}
+
+/* hero */
+.hero-title {
+    color: #000;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.hero-text {
+    font-size: 24px;
+}
+
+.hero-btn {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    border-radius: 10px;
+    background-color: #263238;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #fff;
+    color: #263238;
+}
+
+/* skills */
+
+.skills-subtitle {
+    color: #263238;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.skills-text {
+    font-size: 16px;
+}
+
+.skills-btn {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #263238;
+}
+
+.skills-btn:hover,
+.skills-btn:focus {
+    background-color: #fff;
+    color: #263238;
+}
+
+/* about */
+.about-title {
+    text-align: left;
+}
+
+.about-desk {
+    color: #2a3246;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* pricing */
+.pricing-subtitle {
+    color: #263238;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+.pricing-desc {
+    color: #263238;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.pricing-text {
+    color: #546269;
+    font-size: 18px;
+}
+/* contact */
+.form-btn {
+color: #FFF;
+font-family: Poppins, sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.03em;
+cursor: pointer;
+border-radius: 10px;
+background: #263238;
+}
+.form-btn:hover,
+.form-btn:focus{
+color: #263238;
+background-color: #fff;
+}
+.footer-link{
+color: #8F95A5;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 0.02em;
+}
+.footer-link:hover,
+.footer-link:focus {
+color: tomato;
+}
