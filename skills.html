@@ -5,71 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brilex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <header>
-
-        <nav> <a href="./index.html">Britlex</a>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./skills.html">Skills</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <button type="button">Let’s Talk</button>
+        <div class="container">
+            <nav>
+                <a class="logo" href="./index.html">Brit<span class="logo-part">lex</span></a>
+                <ul>
+                    <li><a class="nav-link" href="./index.html">Home</a></li>
+                    <li><a class="nav-link current" href="./skills.html">Skills</a></li>
+                    <li><a class="nav-link" href="">About Us</a></li>
+                    <li><a class="nav-link" href="">Pricing</a></li>
+                    <li><a class="nav-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="header-btn" type="button">Let’s Talk</button>
+        </div>
     </header>
     <main>
         <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>
-                    <img src="./images/shared-goals-bro.jpeg" alt="speaking" width="390" height="390">
-                    <h3>Speaking</h3>
-                    <p>Improve your English skills and confidence.
-                        Live classes and interactive lessons online.
-                        20% extra free for a limited time only
+            <div class="container">
+                <ul class="card-list">
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                        <img src="./images/shared-goals-bro.jpeg" alt="speaking" width="390" height="390">
+                        <h3>Speaking</h3>
+                        <p>Improve your English skills and confidence.
+                            Live classes and interactive lessons online.
+                            20% extra free for a limited time only
 
-                    </p>
-                    <p>Learn English online and improve your
-                        skills through our high-quality courses
-                        and resources – all designed for adult language learners.</p>
-                    <a href="">Learn more</a>
-                </li>
-                <li>
-                    <img src="./images/typewriter-bro.jpeg" alt="writing" width="390" height="264">
-                    <h3>Writing</h3>
-                    <p>One of the most important and extensive
-                        areas of natural science, the science that
-                        studies substances, also their composition</p>
-                    <a href="">Learn more</a>
-                </li>
-                <li>
-                    <img src="./images/house-bookshelves-bro.jpeg" alt="reading" width="390" height="264">
-                    <h3>Reading</h3>
-                    <p>Perception and response actions of the user
-                        resulting from the use and/or upcoming use
-                        of the product, system or service</p>
-                    <!-- <a href="">Learn more</a> -->
-                    <details>
-                        <summary>Learn more</summary>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ex nulla voluptatum, vel
-                            voluptate cum consectetur aliquam rerum ducimus illum exercitationem possimus saepe nemo
-                            asperiores eos. Eius facilis esse cum.</p>
-                        <img src="./images/img.jpeg" alt="" width="200">
-                    </details>
+                        </p>
+                        <p>Learn English online and improve your
+                            skills through our high-quality courses
+                            and resources – all designed for adult language learners.</p>
+                        <a href="">Learn more</a>
+                    </li>
+                    <li>
+                        <img src="./images/typewriter-bro.jpeg" alt="writing" width="390" height="264">
+                        <h3>Writing</h3>
+                        <p>One of the most important and extensive
+                            areas of natural science, the science that
+                            studies substances, also their composition</p>
+                        <a href="">Learn more</a>
+                    </li>
+                    <li>
+                        <img src="./images/house-bookshelves-bro.jpeg" alt="reading" width="390" height="264">
+                        <h3>Reading</h3>
+                        <p>Perception and response actions of the user
+                            resulting from the use and/or upcoming use
+                            of the product, system or service</p>
+                        <!-- <a href="">Learn more</a> -->
+                        <details>
+                            <summary>Learn more</summary>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ex nulla voluptatum, vel
+                                voluptate cum consectetur aliquam rerum ducimus illum exercitationem possimus saepe nemo
+                                asperiores eos. Eius facilis esse cum.</p>
+                            <img src="./images/img.jpeg" alt="" width="200">
+                        </details>
 
-                </li>
-                <li>
-                    <img src="./images/podcast-audience-bro.jpeg" alt="podcust" width="408" height="274">
-                    <h3>Listening</h3>
-                    <p>Here you can find activities to practise
-                        your listening skills. Listening will help you to improve your understanding</p>
-                    <a href="">Learn more</a>
-                </li>
-            </ul>
+                    </li>
+                    <li>
+                        <img src="./images/podcast-audience-bro.jpeg" alt="podcust" width="408" height="274">
+                        <h3>Listening</h3>
+                        <p>Here you can find activities to practise
+                            your listening skills. Listening will help you to improve your understanding</p>
+                        <a href="">Learn more</a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
