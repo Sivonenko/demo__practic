@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -12,74 +16,86 @@
     <header>
 
         <nav>
-            <a href="./index.html">Britlex</a>
+            <a class="logo" href="./index.html">Brit<span class="logo-part">lex</span> </a>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a class="nav-link" href="./index.html">Home</a></li>
+                <li><a class="nav-link current" href="./skills.html">Skills</a></li>
+                <li><a class="nav-link" href="#about">About Us</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#contacts">Contacts</a></li>
             </ul>
         </nav>
-        <button type="button">Let’s Talk</button>
+        <button class="header-btn" type="button">Let’s Talk</button>
     </header>
     <main>
-        <section id="skills">
-            <h2>Skills</h2>
+        <section class="skills" id="skills">
+            <h2 class="section-title skills-title">Skills</h2>
             <ul>
-                <li>
+                <li class="skills-item">
                     <img src="./images/shared-goals-bro.jpeg" alt="speaking" width="390">
-                    <h3>Speaking</h3>
-                    <p>Improve your English skills and confidence.
+                    <h3 class="skills-subtitle">Speaking</h3>
+                    <p class="skills-text">Improve your English skills and confidence.
                         Live classes and interactive lessons online.
                         20% extra free for a limited time only
 
                     </p>
-                    <p>Learn English online and improve your
+                    <p class="skills-text">Learn English online and improve your
                         skills through our high-quality courses
                         and resources – all designed for adult language learners.</p>
-                    <a href="">Learn more</a>
+                    <a class="skills-link" href="">Learn more</a>
                 </li>
-                <li>
+                <li class="skills-item">
                     <img src="./images/typewriter-bro.jpeg" alt="writing" width="390">
-                    <h3>Writing</h3>
-                    <p>One of the most important and extensive
+                    <h3 class="skills-subtitle">Writing</h3>
+                    <p class="skills-text">One of the most important and extensive
                         areas of natural science, the science that
                         studies substances, also their composition</p>
-                    <a href="">Learn more</a>
+                    <a class="skills-link" href="">Learn more</a>
                 </li>
-                <li>
+                <li class="skills-item">
                     <img src="./images/house-bookshelves-bro.jpeg" alt="reading" width="390">
-                    <h3>Reading</h3>
-                    <p>Perception and response actions of the user
+                    <h3 class="skills-subtitle">Reading</h3>
+                    <p class="skills-text">Perception and response actions of the user
                         resulting from the use and/or upcoming use
                         of the product, system or service</p>
-                    <!-- <a href="">Learn more</a> -->
-                    <details>
-                        <summary>Learn more</summary>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui consectetur fugit neque tenetur
-                            recusandae cumque nam blanditiis eius laborum vero, illo adipisci, consequatur, magni quas
-                            eligendi saepe voluptatem autem sequi?</p>
-                        <img src="./images/img.jpeg" alt="" width="200">
-                    </details>
+                    <a class="skills-link" href="">Learn more</a>
+                    <!-- <details>
+                                <summary>Learn more</summary>
+                                <p class="skills-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui consectetur fugit neque tenetur
+                                    recusandae cumque nam blanditiis eius laborum vero, illo adipisci, consequatur, magni quas
+                                    eligendi saepe voluptatem autem sequi?</p>
+                                <img src="./images/img.jpeg" alt="" width="200">
+                            </details> -->
                 </li>
-                <li>
+                <li class="skills-item">
                     <img src="./images/podcast-audience-bro.jpeg" alt="podcast" width="408">
-                    <h3>Listening</h3>
+                    <h3 class="skills-subtitle">Listening</h3>
                     <p>Here you can find activities to practise
                         your listening skills. Listening will help you to improve your understanding</p>
-                    <a href="">Learn more</a>
+                    <a class="skills-link" href="">Learn more</a>
                 </li>
             </ul>
+        </section>
+        <section>
+            <div class="container">
+                <ul class="card-list">
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                    <li class="card-item"></li>
+                </ul>
+            </div>
         </section>
     </main>
     <!-- footer -->
     <footer>
-        <a href="./index.html">Britlex</a>
+        <a class="logo" href="./index.html">Brit<span class="logo-part">lex</span></a>
         <ul>
-            <li><a href="">Terms and Conditions</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Cookie Policy</a></li>
+            <li><a class="footer-link" href="">Terms and Conditions</a></li>
+            <li><a class="footer-link" href="">Privacy Policy</a></li>
+            <li><a class="footer-link" href="">Cookie Policy</a></li>
         </ul>
     </footer>
 </body>
