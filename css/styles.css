@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #8f95a5;
   font-size: 20px;
 }
@@ -56,7 +56,7 @@ a {
   text-align: center;
   color: #000;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #fff;
   border: 2px solid #263238;
   border-radius: 10px;
 }
